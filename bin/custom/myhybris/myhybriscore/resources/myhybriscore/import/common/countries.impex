@@ -324,6 +324,45 @@ INSERT_UPDATE Region;country(isocode);isocode[unique=true];isocodeShort;name[lan
 ;US;US-UM;UM;"United States Minor Outlying Islands"
 ;US;US-VI;VI;"United States Virgin Islands"
 
+
+#
+# ISO 3166-2:MX
+#
+
+;MX;MX-AGS;AGS;"Aguascalientes"
+;MX;MX-BC;BC;"Baja California"
+;MX;MX-BCS;BCS;"Baja California S"
+;MX;MX-CHI;CHI;"Chihuahua"
+;MX;MX-CHS;CHS;"Chiapas"
+;MX;MX-CMP;CMP;"Campeche"
+;MX;MX-CMX;CMX;"Ciudad de México"
+;MX;MX-COA;COA;"Coahuila"
+;MX;MX-COL;COL;"Colima"
+;MX;MX-DF;DF;"Ciudad de México"
+;MX;MX-DGO;DGO;"Durango"
+;MX;MX-GRO;GRO;"Guerrero"
+;MX;MX-GTO;GTO;"Guanajuato"
+;MX;MX-HGO;HGO;"Hidalgo"
+;MX;MX-JAL;JAL;"Jalisco"
+;MX;MX-MCH;MCH;"Michoacán"
+;MX;MX-MEX;MEX;"Estado de México"
+;MX;MX-MOR;MOR;"Morelos"
+;MX;MX-NAY;NAY;"Nayarit"
+;MX;MX-NL;NL;"Nuevo León"
+;MX;MX-OAX;OAX;"Oaxaca"
+;MX;MX-PUE;PUE;"Puebla"
+;MX;MX-QR;QR;"Quintana Roo"
+;MX;MX-QRO;QRO;"Querétaro"
+;MX;MX-SIN;SIN;"Sinaloa"
+;MX;MX-SLP;SLP;"San Luis Potosí"
+;MX;MX-SON;SON;"Sonora"
+;MX;MX-TAB;TAB;"Tabasco"
+;MX;MX-TLX;TLX;"Tlaxcala"
+;MX;MX-TMS;TMS;"Tamaulipas"
+;MX;MX-VER;VER;"Veracruz"
+;MX;MX-YUC;YUC;"Yucatán"
+;MX;MX-ZAC;ZAC;"Zacatecas"
+
 #
 # ISO 3166-2:CA
 #

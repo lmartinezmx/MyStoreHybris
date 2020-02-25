@@ -25,6 +25,14 @@ INSERT_UPDATE SpecialOpeningDay;openingSchedule(code)[unique=true];date[unique=t
 
 INSERT_UPDATE Address;&addrID;streetname;streetnumber;postalcode[unique=true];town[unique=true];country(isocode);region(isocode);phone1;owner(PointOfService.name)[unique=true]
 
+INSERT_UPDATE PointOfService;name[unique=true];displayName;type(code);address(&addrID);latitude ;longitude
+                            ;ARAGON           ;PUNTOSERV  ;STORE     ;myaddr1           ;20,269369;-98,944066
+
+
+INSERT_UPDATE Address;&addrID;streetname;streetnumber               ;phone1                ;postalcode[unique=true];town[unique=true];country(isocode)  ;owner(PointOfService.name)[unique=true];region (isocode);district
+                     ;myaddr1;Florines  ; 230                       ;TEL. 55-30235879      ;15410                  ;CIUDAD DE MEXICO ;MX                ;ARAGON                                 ;MX-CMX          ;CIUDAD DE MEXICO
+
+
 INSERT_UPDATE StoreLocatorFeature;code[unique=true]
 
 INSERT_UPDATE PointOfService;name[unique=true];type(code);address(&addrID);latitude;longitude;geocodeTimestamp[dateformat=dd-MM-yyyy];$storeImage;openingSchedule(code);basestore(uid)[default=$storeUid];features(code)
